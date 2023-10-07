@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GrayZone/ZonePass_flattened.sol": "AddressUpgradeable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"GrayZone/ZonePass_flattened.sol": {
+			"keccak256": "0x09849e97c81425aba7dde57f26b9421327f3685a6d2c0f78f61546c2268cd36a",
+			"urls": [
+				"bzz-raw://fe1d4e1874fb1579c623a76904d582c4af96aa1c847049ea5bbf7f91e8d137db",
+				"dweb:/ipfs/Qmf2MJkGxfYXyd6WMA3eL4TQYwTYpDGrENf3m8xrb42QK4"
+			]
+		}
+	},
+	"version": 1
+}

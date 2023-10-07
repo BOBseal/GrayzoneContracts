@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GrayZone/ZONEPASSLIB.sol": "ZoneLib"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 50
+		},
+		"remappings": []
+	},
+	"sources": {
+		"GrayZone/ZONEPASSLIB.sol": {
+			"keccak256": "0xb4f57b51fffdea91df76c110840128c965e491131ed9ba2cedc63e83b067a99e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://032afa8318b1607440b2063fcfc60fc147f2c82e32d509e57183fbbfd474608a",
+				"dweb:/ipfs/QmUivj6dF7kqCccBj3ewjDSUSMxtQyjgFbPXU5mK799Ltv"
+			]
+		}
+	},
+	"version": 1
+}

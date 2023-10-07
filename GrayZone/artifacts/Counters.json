@@ -1,0 +1,66 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220bfb8b701d018a35310fc23a2608eccea8f1295e8aa8ed540357693e6124e235c64736f6c63430008110033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x37 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x2A JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH1 0x0 MSTORE PUSH1 0x0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH1 0x0 REVERT JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xBF 0xB8 0xB7 ADD 0xD0 XOR LOG3 MSTORE8 LT 0xFC 0x23 LOG2 PUSH1 0x8E 0xCC 0xEA DUP16 SLT SWAP6 0xE8 0xAA DUP15 0xD5 BLOCKHASH CALLDATALOAD PUSH23 0x93E6124E235C64736F6C63430008110033000000000000 ",
+			"sourceMap": "447:971:0:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;447:971:0;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220bfb8b701d018a35310fc23a2608eccea8f1295e8aa8ed540357693e6124e235c64736f6c63430008110033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xBF 0xB8 0xB7 ADD 0xD0 XOR LOG3 MSTORE8 LT 0xFC 0x23 LOG2 PUSH1 0x8E 0xCC 0xEA DUP16 SLT SWAP6 0xE8 0xAA DUP15 0xD5 BLOCKHASH CALLDATALOAD PUSH23 0x93E6124E235C64736F6C63430008110033000000000000 ",
+			"sourceMap": "447:971:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "103",
+				"totalCost": "17303"
+			},
+			"internal": {
+				"current(struct Counters.Counter storage pointer)": "infinite",
+				"decrement(struct Counters.Counter storage pointer)": "infinite",
+				"increment(struct Counters.Counter storage pointer)": "infinite",
+				"reset(struct Counters.Counter storage pointer)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
